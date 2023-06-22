@@ -1,0 +1,53 @@
+[
+{
+    "model": "movies.genre",
+    "pk": 1,
+    "fields": {
+        "name": "Action"
+    }
+},
+{
+    "model": "movies.genre",
+    "pk": 2,
+    "fields": {
+        "name": "Drama"
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+        "title": "La La Land",
+        "genre": "Drama",
+        "year": 2016
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+        "title": "Mad Max: Fury Road",
+        "genre": "Action",
+        "year": 2015
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "year": 1994
+    }
+},
+{
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+        "title": "Mission: Impossible - Fallout",
+        "genre": "Action",
+        "year": 2018
+    }
+}
+
+]
